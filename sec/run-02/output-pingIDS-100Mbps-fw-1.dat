@@ -1,0 +1,834 @@
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.440 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.440/0.440/0.440/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.404 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.404/0.404/0.404/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.460 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.460/0.460/0.460/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.555 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.555/0.555/0.555/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.407 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.407/0.407/0.407/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.71 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.713/3.713/3.713/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=5.57 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 5.570/5.570/5.570/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.196 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.196/0.196/0.196/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.182 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.182/0.182/0.182/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.211 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.211/0.211/0.211/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.219 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.219/0.219/0.219/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.199 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.199/0.199/0.199/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=2.38 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.384/2.384/2.384/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.213 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.213/0.213/0.213/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.263 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.263/0.263/0.263/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=2.81 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.816/2.816/2.816/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.18 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.181/3.181/3.181/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=4.69 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.699/4.699/4.699/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.84 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.845/3.845/3.845/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=5.04 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 5.043/5.043/5.043/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=4.14 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.147/4.147/4.147/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=4.23 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.234/4.234/4.234/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.203 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.203/0.203/0.203/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.15 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.156/3.156/3.156/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.21 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.211/3.211/3.211/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=5.49 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 5.499/5.499/5.499/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.13 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.138/3.138/3.138/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=6.15 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 6.150/6.150/6.150/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.32 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.329/3.329/3.329/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=5.09 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 5.096/5.096/5.096/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.79 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.795/3.795/3.795/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=6.22 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 6.228/6.228/6.228/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.75 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.754/3.754/3.754/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.70 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.702/3.702/3.702/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=5.73 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 5.738/5.738/5.738/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=4.11 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.110/4.110/4.110/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.461 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.461/0.461/0.461/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=7.86 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 7.865/7.865/7.865/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.94 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.948/3.948/3.948/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=4.91 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.912/4.912/4.912/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=2.53 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.534/2.534/2.534/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=8.66 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 8.664/8.664/8.664/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.04 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.044/3.044/3.044/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.399 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.399/0.399/0.399/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=2.69 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.692/2.692/2.692/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=5.87 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 5.872/5.872/5.872/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=5.97 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 5.973/5.973/5.973/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=1.96 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.966/1.966/1.966/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.90 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.904/3.904/3.904/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=1.46 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.465/1.465/1.465/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=1.24 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.244/1.244/1.244/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.27 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.275/3.275/3.275/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.68 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.680/3.680/3.680/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=5.14 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 5.142/5.142/5.142/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=4.77 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.772/4.772/4.772/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=5.38 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 5.387/5.387/5.387/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=4.96 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.960/4.960/4.960/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.27 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.276/3.276/3.276/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=4.16 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.166/4.166/4.166/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.713 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.713/0.713/0.713/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=5.88 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 5.886/5.886/5.886/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.24 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.247/3.247/3.247/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=5.45 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 5.458/5.458/5.458/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=7.74 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 7.747/7.747/7.747/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=1.43 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.438/1.438/1.438/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.49 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.497/3.497/3.497/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=5.67 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 5.679/5.679/5.679/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=1.88 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.880/1.880/1.880/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=6.68 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 6.680/6.680/6.680/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=4.19 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.199/4.199/4.199/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=4.00 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.005/4.005/4.005/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=2.18 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.189/2.189/2.189/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=1.68 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.680/1.680/1.680/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.07 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.072/3.072/3.072/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=7.46 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 7.461/7.461/7.461/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=4.21 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.219/4.219/4.219/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=4.39 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.391/4.391/4.391/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=4.20 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.209/4.209/4.209/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=4.29 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.290/4.290/4.290/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=6.13 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 6.135/6.135/6.135/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=4.22 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.225/4.225/4.225/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.65 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.653/3.653/3.653/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.190 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.190/0.190/0.190/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=5.55 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 5.558/5.558/5.558/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=2.44 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.448/2.448/2.448/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.18 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.183/3.183/3.183/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.653 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.653/0.653/0.653/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.63 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.638/3.638/3.638/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.29 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.292/3.292/3.292/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=4.18 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.182/4.182/4.182/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.59 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.596/3.596/3.596/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.194 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.194/0.194/0.194/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=2.53 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.531/2.531/2.531/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.290 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.290/0.290/0.290/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=6.45 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 6.450/6.450/6.450/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=4.46 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.460/4.460/4.460/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=6.17 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 6.171/6.171/6.171/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=1.30 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.307/1.307/1.307/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=2.53 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.530/2.530/2.530/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.15 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.154/3.154/3.154/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.50 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.500/3.500/3.500/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.504 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.504/0.504/0.504/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=5.99 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 5.999/5.999/5.999/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=2.81 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.816/2.816/2.816/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=1.89 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.899/1.899/1.899/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=2.91 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.918/2.918/2.918/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.40 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.408/3.408/3.408/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=5.05 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 5.053/5.053/5.053/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=4.23 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.239/4.239/4.239/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.55 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.551/3.551/3.551/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=5.34 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 5.344/5.344/5.344/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=6.17 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 6.175/6.175/6.175/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.190 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.190/0.190/0.190/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=2.61 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.618/2.618/2.618/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.206 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.206/0.206/0.206/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=2.33 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.331/2.331/2.331/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=7.43 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 7.436/7.436/7.436/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=1.29 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 1.290/1.290/1.290/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=3.11 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.111/3.111/3.111/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.415 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.415/0.415/0.415/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.334 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.334/0.334/0.334/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.438 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.438/0.438/0.438/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.412 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.412/0.412/0.412/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.519 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.519/0.519/0.519/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.429 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.429/0.429/0.429/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.450 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.450/0.450/0.450/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.384 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.384/0.384/0.384/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.346 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.346/0.346/0.346/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.514 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.514/0.514/0.514/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.461 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.461/0.461/0.461/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.343 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.343/0.343/0.343/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.492 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.492/0.492/0.492/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.467 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.467/0.467/0.467/0.000 ms
+PING 143.54.12.72 (143.54.12.72) 56(84) bytes of data.
+64 bytes from 143.54.12.72: icmp_seq=1 ttl=64 time=0.483 ms
+
+--- 143.54.12.72 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 0.483/0.483/0.483/0.000 ms

@@ -1,0 +1,10 @@
+Counting cache functions... Output every 1 seconds.
+    HITS   MISSES  DIRTIES    RATIO   BUFFERS_MB   CACHE_MB
+   20795        0     1258   100.0%           70        686
+   20619        0     1074   100.0%           70        686
+   20586        0     1117   100.0%           70        686
+   20485        2     1111   100.0%           71        686
+   19867        0     1125   100.0%           71        686
+   15892        0     1038   100.0%           71        687
+
+Ending tracing...
