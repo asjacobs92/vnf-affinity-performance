@@ -5,7 +5,8 @@ from time import *
 
 from affinity import *
 
-vnfs = {}
+vnfs = []
+
 
 def read():
     global vnfs
@@ -13,17 +14,15 @@ def read():
     vnfs = parse_vnfs()
     fgs = parse_fgs()
 
-    for (time, test, net), vnf_list in vnfs.iteritems():
-        fg_list = fgs[(time, test, net)]
-        for vnf in vnf_list:
-            vnf.find_fgs(fg_list)
+    for vnf in vnfs:
+        vnf.find_fgs(fgs)
+
 
 def write():
-    with open("res/sec/results-03.csv", "wb") as file:
+    with open("res/sec/results-02.csv", "wb") as file:
         writer = csv.writer(file, delimiter=",")
         writer.writerow(
             [
-                "i",
                 "time",
                 "net",
                 "vnf_a",
@@ -51,7 +50,13 @@ def write():
                 "total_affinity",
             ]
         )
-        for (test, time, net), vnf_list in vnfs.iteritems():
+
+        tests = {}
+        for time in range(1, 120):
+            for net in ["10Mbps", "50Mbps", "100Mbps"]:
+                tests[(time, net)] = [x for x in vnfs if x.time == time and x.net == net]
+
+        for (time, net), vnf_list in tests.iteritems():
             for i in range(0, len(vnf_list) - 1):
                 for j in range(i + 1, len(vnf_list)):
                     vnf_a = vnf_list[i]
@@ -61,7 +66,6 @@ def write():
 
                     writer.writerow(
                         [
-                            test,
                             time,
                             net,
                             vnf_a.label,

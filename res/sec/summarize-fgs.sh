@@ -25,7 +25,7 @@ for vnf in 'ids' 'fw' 'dpi'
 do
 	nic_throughput=`cat run-$1/output-ifstat-$net-$vnf-$i.dat | grep -v eth0 | grep -v KB | awk '{ print $2 }' | sed -n ''$time' p'`
 	bnd=`echo $net | sed -e 's/'Mbps'//g'`
-	bnd_usage=`echo "scale = 10; $nic_throughput / ($bnd * 1000)" | bc`
+	bnd_usage=`echo "scale = 10; $nic_throughput / ($bnd * 1024)" | bc`
 
 	if [ $vnf = "ids" ]
 	then

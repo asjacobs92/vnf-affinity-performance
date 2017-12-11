@@ -47,10 +47,9 @@ class VNF(object):
 
     def find_fgs(self, fgs):
         try:
-            self.fgs.append(fgs[self.fg_id])
+            self.fgs.append(fgs[(self.fg_id, self.time, self.net)])
             return True
         except:
-            print False
             return False
 
 
