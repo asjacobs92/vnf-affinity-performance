@@ -55,9 +55,16 @@ def min_sto_affinity(vnf_a, vnf_b, fg):
 
 def conflicts_affinity(vnf_a, vnf_b, fg):
     if (fg is not None):
-        for conflict in fg.nsd.conflicts:
-            if (conflict["vnf_a"] == vnf_a.type[1] and conflict["vnf_b"] == vnf_b.type[1]):
-                return 0.001
+        for flow in fg.flows:
+            if (flow.src == vnf_a.id and flow.dst == vnf_b.id):
+                for conflict in fg.nsd.conflicts:
+                    if (conflict["vnf_a"] == vnf_a.type[1] and conflict["vnf_b"] == vnf_b.type[1]):
+                        return 0.001
+
+            if (flow.src == vnf_b.id and flow.dst == vnf_a.id):
+                for conflict in fg.nsd.conflicts:
+                    if (conflict["vnf_a"] == vnf_b.type[1] and conflict["vnf_b"] == vnf_a.type[1]):
+                        return 0.001
     return 1.0
 
 

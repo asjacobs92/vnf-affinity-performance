@@ -5,6 +5,8 @@ from affinity import *
 
 vnf_ids = {"fw": 1, "ids": 2, "dpi": 3}
 
+sfc = '02'
+
 
 def parse_vnf(row):
     time = int(row[0])
@@ -40,7 +42,7 @@ def parse_vnf(row):
 def parse_vnfs():
     vnfs = []
     final_vnfs = []
-    with open("res/sec/summary-vnfs-02.csv", "rb") as file:
+    with open("res/sec/summary-vnfs-" + sfc + ".csv", "rb") as file:
         reader = csv.reader(file, delimiter=",")
         for row in reader:
             vnfs.append(parse_vnf(row))
@@ -73,7 +75,7 @@ def parse_vnfs():
 def parse_fgs():
     fgs = []
     final_fgs = {}
-    with open("res/sec/summary-fgs-02.csv", "rb") as file:
+    with open("res/sec/summary-fgs-" + sfc + ".csv", "rb") as file:
         reader = csv.reader(file, delimiter=",")
         for row in reader:
             time = int(row[0])
@@ -107,10 +109,10 @@ def parse_fgs():
 
     for (fg_id, fg_time, fg_net), fgs_list in mean_fgs.iteritems():
         mean_flows = {}
-        for fg in fgs:
-            mean_rt = -1
-            mean_thr = -1
-            nsd = None
+        mean_rt = -1
+        mean_thr = -1
+        nsd = None
+        for fg in fgs_list:
             if (mean_rt == -1):
                 mean_rt = fg.rt
                 mean_thr = fg.thr
@@ -142,7 +144,7 @@ def parse_fgs():
             flow.bnd_usage = flow.bnd_usage / 30.0
             flow.pkt_loss = flow.pkt_loss / 30.0
 
-        fg = ForwardingGraph(fg_id, flows=final_flows.values(), nsd=nsd, rt=mean_thr / 30.0, thr=mean_rt / 30.0)
+        fg = ForwardingGraph(fg_id, flows=final_flows.values(), nsd=nsd, rt=mean_rt / 30.0, thr=mean_thr / 30.0)
         final_fgs[(fg_id, fg_time, fg_net)] = fg
 
     return final_fgs

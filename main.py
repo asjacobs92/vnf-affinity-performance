@@ -7,6 +7,8 @@ from affinity import *
 
 vnfs = []
 
+sfc = '02'
+
 
 def read():
     global vnfs
@@ -19,10 +21,11 @@ def read():
 
 
 def write():
-    with open("res/sec/results-02.csv", "wb") as file:
+    with open("res/sec/results-" + sfc + ".csv", "wb") as file:
         writer = csv.writer(file, delimiter=",")
         writer.writerow(
             [
+                "sfc",
                 "time",
                 "net",
                 "vnf_a",
@@ -66,8 +69,9 @@ def write():
 
                     writer.writerow(
                         [
+                            int(sfc) - 1,
                             time,
-                            net,
+                            net.replace("Mbps", ""),
                             vnf_a.label,
                             vnf_b.label,
                             fg.rt,
