@@ -29,7 +29,17 @@ def write():
                 "time",
                 "net",
                 "vnf_a",
+                "vnf_a_cpu",
+                "vnf_a_mem",
+                "vnf_a_sto",
                 "vnf_b",
+                "vnf_b_cpu",
+                "vnf_b_mem",
+                "vnf_b_sto",
+                "traffic",
+                "latency",
+                "bnd_usage",
+                "pkt_loss",
                 "rt",
                 "throughput",
                 "min_cpu_affinity",
@@ -65,6 +75,9 @@ def write():
                     vnf_a = vnf_list[i]
                     vnf_b = vnf_list[j]
                     fg = vnf_a.fgs[0]
+                    flow = None
+                    if (fg is not None):
+                        flow = next((x for x in fg.flows if ((x.src == vnf_a.id and x.dst == vnf_b.id) or (x.src == vnf_b.id and x.dst == vnf_a.id))), None)
                     affinity = affinity_measurement(vnf_a, vnf_b, fg)["result"]
 
                     writer.writerow(
@@ -73,7 +86,17 @@ def write():
                             time,
                             net.replace("Mbps", ""),
                             vnf_a.label,
+                            vnf_a.cpu_usage,
+                            vnf_a.mem_usage,
+                            vnf_a.sto_usage,
                             vnf_b.label,
+                            vnf_b.cpu_usage,
+                            vnf_b.mem_usage,
+                            vnf_b.sto_usage,
+                            flow.traffic if flow is not None else 0,
+                            flow.latency if flow is not None else 0,
+                            flow.bnd_usage if flow is not None else 0,
+                            flow.pkt_loss if flow is not None else 0,
                             fg.rt,
                             fg.thr,
                             min_cpu_affinity(vnf_a, vnf_b, fg),

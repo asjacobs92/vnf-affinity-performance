@@ -29,9 +29,9 @@ def parse_vnf(row):
               vm_cpu=float(vm_data[0]),
               vm_mem=float(vm_data[1]),
               vm_sto=float(vm_data[2]),
-              cpu_usage=float(usage_data[0]),
-              mem_usage=float(usage_data[1]),
-              sto_usage=float(usage_data[2]))
+              cpu_usage=float(usage_data[0]) * 100,
+              mem_usage=float(usage_data[1]) * 100,
+              sto_usage=float(usage_data[2]) * 100)
     vnf.time = time
     vnf.net = net
     vnf.test = test
@@ -89,7 +89,13 @@ def parse_fgs():
             nsd = None
             for i in range(fg_num_flows):
                 flow_data = next(reader)
-                flow = Flow(vnf_ids[flow_data[0]], vnf_ids[flow_data[1]], float(flow_data[2]), float(flow_data[3]), float(flow_data[4]), float(flow_data[5]))
+                flow = Flow(
+                    src=vnf_ids[flow_data[0]],
+                    dst=vnf_ids[flow_data[1]],
+                    trf=float(flow_data[2]),
+                    lat=float(flow_data[3]),
+                    bnd_usage=float(flow_data[4]) * 100,
+                    pkt_loss=float(flow_data[5]))
                 flows.append(flow)
                 if (nsd is None):
                     nsd = NSD(sla=float(flow_data[6]))

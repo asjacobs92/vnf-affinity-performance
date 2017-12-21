@@ -100,4 +100,4 @@ class NSD(object):
     def __init__(self, sla=0.0, conflicts=[]):
         self.sla = numpy.random.uniform(0, 1, 1)[0] * 50 if (sla == 0.0) else sla
         self.conflicts = conflicts
-        self.conflicts.append({'vnf_a': 5,  'vnf_b': 3})
+        #self.conflicts.append({'vnf_a': 5,  'vnf_b': 3})
