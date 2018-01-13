@@ -27,7 +27,7 @@ do
 	bnd=`echo $net | sed -e 's/'Mbps'//g'`
 	bnd_usage=`echo "scale = 10; $nic_throughput / ($bnd * 1024)" | bc`
 
-	if [ $1 = 02 ]
+	if [ $1 = 01 ]
 	then
 			if [ $vnf = "fw" ]
 			then
@@ -45,7 +45,7 @@ do
 			fi
 	fi
 
-	if [ $1 = 03 ]
+	if [ $1 = 02 ]
 	then
 			if [ $vnf = "ids" ]
 			then

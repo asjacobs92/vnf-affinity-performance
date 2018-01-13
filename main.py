@@ -70,6 +70,7 @@ def write():
                 tests[(time, net)] = [x for x in vnfs if x.time == time and x.net == net]
 
         for (time, net), vnf_list in tests.iteritems():
+            vnf_list.sort(key=lambda x: x.id, reverse=False)
             for i in range(0, len(vnf_list) - 1):
                 for j in range(i + 1, len(vnf_list)):
                     vnf_a = vnf_list[i]
@@ -82,21 +83,21 @@ def write():
 
                     writer.writerow(
                         [
-                            int(sfc) - 1,
+                            int(sfc),
                             time,
                             net.replace("Mbps", ""),
                             vnf_a.label,
-                            vnf_a.cpu_usage,
-                            vnf_a.mem_usage,
-                            vnf_a.sto_usage,
+                            vnf_a.cpu_usage / 100,
+                            vnf_a.mem_usage / 100,
+                            vnf_a.sto_usage / 100,
                             vnf_b.label,
-                            vnf_b.cpu_usage,
-                            vnf_b.mem_usage,
-                            vnf_b.sto_usage,
+                            vnf_b.cpu_usage / 100,
+                            vnf_b.mem_usage / 100,
+                            vnf_b.sto_usage / 100,
                             flow.traffic if flow is not None else 0,
                             flow.latency if flow is not None else 0,
-                            flow.bnd_usage if flow is not None else 0,
-                            flow.pkt_loss if flow is not None else 0,
+                            flow.bnd_usage / 100 if flow is not None else 0,
+                            flow.pkt_loss / 100 if flow is not None else 0,
                             fg.rt,
                             fg.thr,
                             min_cpu_affinity(vnf_a, vnf_b, fg),

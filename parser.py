@@ -29,9 +29,9 @@ def parse_vnf(row):
               vm_cpu=float(vm_data[0]),
               vm_mem=float(vm_data[1]),
               vm_sto=float(vm_data[2]),
-              cpu_usage=float(usage_data[0]) * 100,
-              mem_usage=float(usage_data[1]) * 100,
-              sto_usage=float(usage_data[2]) * 100)
+              cpu_usage=float(usage_data[0]),
+              mem_usage=float(usage_data[1]),
+              sto_usage=float(usage_data[2]))
     vnf.time = time
     vnf.net = net
     vnf.test = test
@@ -64,9 +64,9 @@ def parse_vnfs():
                 mean_vnf.mem_usage += vnf.mem_usage
                 mean_vnf.sto_usage += vnf.sto_usage
 
-            mean_vnf.cpu_usage = mean_vnf.cpu_usage / 30.0
-            mean_vnf.mem_usage = mean_vnf.mem_usage / 30.0
-            mean_vnf.sto_usage = mean_vnf.sto_usage / 30.0
+        mean_vnf.cpu_usage = mean_vnf.cpu_usage / 30.0
+        mean_vnf.mem_usage = mean_vnf.mem_usage / 30.0
+        mean_vnf.sto_usage = mean_vnf.sto_usage / 30.0
 
         final_vnfs.append(mean_vnf)
     return final_vnfs
