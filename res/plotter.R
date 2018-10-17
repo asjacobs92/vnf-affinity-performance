@@ -7,7 +7,7 @@ library(reshape2)
 library(gtools)
 
 #read collected results
-data <- read.csv("/home/asjacobs/workspace/vnf-affinity-performance/res/sec/results-01.csv")
+data <- read.csv("/home/asjacobs/workspace/vnf-affinity-performance/res/sec/results-03.csv")
 data$time <- as.numeric(data$time)
 data$rt <- as.numeric(data$rt)
 data$throughput <- as.numeric(data$throughput)
@@ -31,6 +31,10 @@ net50[with(net50, order(time)), ]
 net100 <- data[data$net == "100",]
 net100[with(net100, order(time)), ]
 
+mean(ids_fw$rt[ids_fw$net == "100"])
+mean(ids_fw$throughput[ids_fw$net == "100"])
+
+
 temp <- summarySE(ids_fw, measurevar="rt", groupvars=c("net","sfc"))
 pd <- position_dodge(0.1) # move them .05 to the left and right
 # Black error bars - notice the mapping of 'group=supp' -- without it, the error
@@ -40,8 +44,8 @@ m +
   geom_bar(aes(fill=factor(sfc)),position=position_dodge(), stat="identity") +
   geom_errorbar(aes(ymin=rt-ci, ymax=rt+ci), colour="black", width=10, position=position_dodge(35)) +
   scale_x_continuous(limits = c(-10,120), breaks=c(10,50,100)) +
-  scale_y_continuous(limits = c(0,0.4), breaks=seq(0,0.4,by=0.10)) +
-  xlab("Bandwidth (Mbps)") +ylab("Response Time (ms)") +
+  scale_y_continuous(limits = c(0,0.8), breaks=seq(0,0.8,by=0.10)) +
+  xlab("Bandwidth (Mbps)") +ylab("Response Time (s)") +
   theme_bw() +  
   scale_fill_grey(start = 0.3, end = .6) +
   theme(axis.line.x = element_line(color = 'black'),
@@ -376,23 +380,25 @@ colnames(ids_dpi)[which(names(ids_dpi) == "bnd_usage")] <- "Bandwidth Usage"
 colnames(ids_dpi)[which(names(ids_dpi) == "latency")] <- "Latency"
 colnames(ids_dpi)[which(names(ids_dpi) == "pkt_loss")] <- "Packet Loss"
 
-ids_dpi$traffic <- ids_dpi$traffic / max(ids_dpi$traffic)
-ids_dpi$latency <- ids_dpi$latency / max(ids_dpi$latency)
+ids_dpi$Traffic <- ids_dpi$Traffic / max(ids_dpi$Traffic)
+ids_dpi$Latency <- ids_dpi$Latency / max(ids_dpi$Latency)
 meltdf3 <- melt(ids_dpi, id.vars = c("time","net","sfc"), measure.vars = c("Affinity", "Traffic", "Latency", "Bandwidth Usage", "Packet Loss"))
 
 meltdf3$sfc[meltdf3$sfc == "1"] <- "SFC 1"
 meltdf3$sfc[meltdf3$sfc == "2"] <- "SFC 2"
+meltdf3$sfc[meltdf3$sfc == "3"] <- "SFC 3"
+
 
 meltdf3$net[meltdf3$net == "10"] <- "10 Mbps"
 meltdf3$net[meltdf3$net == "50"] <- "50 Mbps"
 meltdf3$net[meltdf3$net == "100"] <- "100 Mbps"
-meltdf3$net_f = factor(meltdf1$net, levels=c("10 Mbps","50 Mbps","100 Mbps"))
+meltdf3$net_f = factor(meltdf3$net, levels=c("10 Mbps","50 Mbps","100 Mbps"))
 
 m <- ggplot(meltdf3, aes(x=time, y=value, colour=variable, group=variable, linetype=variable)) 
 m + 
   annotate("segment", x=-Inf, xend=Inf, y=-Inf, yend=-Inf)+
   annotate("segment", x=-Inf, xend=-Inf, y=-Inf, yend=Inf)+
-  facet_grid(sfc~net_f)+
+  facet_grid(~net_f)+
   scale_x_continuous(limits=c(0,120),breaks=seq(0, 120, by=40)) + 
   geom_line() +
   xlab("Time (s)") + ylab("Normalized measurement") +

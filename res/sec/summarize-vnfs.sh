@@ -1,7 +1,7 @@
 #!/bin/sh
 #echo time,i,net,vnf,pm,fgs,min_cpu,min_mem,min_sto,vm_cpu,vm_mem,vm_sto,cpu_usage,mem_usage,sto_usage >> summary-vnfs-$1.csv
 
-for i in `seq 0 29`
+for i in `seq 0 10`
 do
 for net in '10Mbps' '50Mbps' '100Mbps'
 do

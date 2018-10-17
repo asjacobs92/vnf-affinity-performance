@@ -1,6 +1,6 @@
 #!/bin/sh
 
-for i in `seq 0 29`
+for i in `seq 0 10`
 do
 for net in '10Mbps' '50Mbps' '100Mbps'
 do
@@ -27,7 +27,7 @@ do
 	bnd=`echo $net | sed -e 's/'Mbps'//g'`
 	bnd_usage=`echo "scale = 10; $nic_throughput / ($bnd * 1024)" | bc`
 
-	if [ $1 = 01 ]
+	if [ $1 = 03 ]
 	then
 			if [ $vnf = "fw" ]
 			then

@@ -7,7 +7,7 @@ from affinity import *
 
 vnfs = []
 
-sfc = '02'
+sfc = '03'
 
 
 def read():

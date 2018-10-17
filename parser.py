@@ -5,7 +5,7 @@ from affinity import *
 
 vnf_ids = {"fw": 1, "ids": 2, "dpi": 3}
 
-sfc = '02'
+sfc = '03'
 
 
 def parse_vnf(row):
@@ -64,9 +64,9 @@ def parse_vnfs():
                 mean_vnf.mem_usage += vnf.mem_usage
                 mean_vnf.sto_usage += vnf.sto_usage
 
-        mean_vnf.cpu_usage = mean_vnf.cpu_usage / 30.0
-        mean_vnf.mem_usage = mean_vnf.mem_usage / 30.0
-        mean_vnf.sto_usage = mean_vnf.sto_usage / 30.0
+        mean_vnf.cpu_usage = mean_vnf.cpu_usage / 10.0
+        mean_vnf.mem_usage = mean_vnf.mem_usage / 10.0
+        mean_vnf.sto_usage = mean_vnf.sto_usage / 10.0
 
         final_vnfs.append(mean_vnf)
     return final_vnfs
@@ -145,12 +145,12 @@ def parse_fgs():
                     final_flows[(fg_time, fg_net, flow.src, flow.dst)] = flow
 
         for (fg_time, fg_net, flow_src, flow_dst), flow in final_flows.iteritems():
-            flow.traffic = flow.traffic / 30.0
-            flow.latency = flow.latency / 30.0
-            flow.bnd_usage = flow.bnd_usage / 30.0
-            flow.pkt_loss = flow.pkt_loss / 30.0
+            flow.traffic = flow.traffic / 10.0
+            flow.latency = flow.latency / 10.0
+            flow.bnd_usage = flow.bnd_usage / 10.0
+            flow.pkt_loss = flow.pkt_loss / 10.0
 
-        fg = ForwardingGraph(fg_id, flows=final_flows.values(), nsd=nsd, rt=mean_rt / 30.0, thr=mean_thr / 30.0)
+        fg = ForwardingGraph(fg_id, flows=final_flows.values(), nsd=nsd, rt=mean_rt / 10.0, thr=mean_thr / 10.0)
         final_fgs[(fg_id, fg_time, fg_net)] = fg
 
     return final_fgs
